@@ -131,6 +131,7 @@ transition: left 1s linear;
 .btn_img {
  height: 28px;
  width: 30px;
+ cursor: pointer;
  padding: 5px;
  float: left;
  background-color: #ddb000;
