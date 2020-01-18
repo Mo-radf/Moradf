@@ -426,6 +426,9 @@ footer {
       #lense,  #skills {
   			height: 2000px;
       }
+	           .lens_text, .skills_text, .st-text, .intro_text, .head-line  {
+        font-size: 14px;
+     }
      }
 
      @media screen and (max-width: 255px) {
