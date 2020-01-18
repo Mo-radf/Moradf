@@ -204,7 +204,7 @@ transition: left 1s linear;
  /* ------------lens-------------------- */
 
  #lense {
-   height: 1600px;
+   height: 1640px;
    width:100%;
    margin: auto;
    border-top: 1px solid rgb(242, 247, 249);
@@ -421,7 +421,18 @@ footer {
 }
 
 
+                
+     @media screen and (max-width: 220px) {
+      #lense,  #skills {
+  			height: 2000px;
+      }
+     }
 
+     @media screen and (max-width: 255px) {
+       #lense,  #skills {
+        height: 1900px;
+      }
+      }
 		@media screen and (min-width: 275px) {
 			.lens_text, .skills_text, .st-text, .intro_text {
 				letter-spacing: 0.8px;
