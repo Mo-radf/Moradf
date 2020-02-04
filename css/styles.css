@@ -92,13 +92,13 @@ header, main, aside, footer {
 
 #sidebar {
   padding-top: 1px;
-  width: 200px;
-  height: 330px;
+  width: 100px;
+  height: 350px;
   display: block;
   position: absolute;
   float: left;
-  font-size: 20px;
-  left: -200px;
+  font-size: 15px;
+  left: -100px;
   transition: left 1s linear;
 }
 
@@ -115,7 +115,7 @@ transition: left 1s linear;
 
 #sidebar ul li {
   list-style: none;
-  height: 38px;
+  height: 50px;
 }
 
 #sidebar ul li a{
@@ -123,7 +123,7 @@ transition: left 1s linear;
   color: white;
   border-bottom: 1px solid white;
   display: block;
-  width: 120px;
+  width: 70px;
   padding: 7.2px;
   text-decoration: none;
 }
@@ -182,6 +182,11 @@ transition: left 1s linear;
        margin: 2.5em 0em 3em;
  }
 
+ .vision_text {
+   display: none;
+ }
+
+ /* ------------------------------ */
 
  b {
    color: #d1ab0d;
@@ -230,6 +235,9 @@ transition: left 1s linear;
    line-height: 20px;
  }
 
+ .lens_list_new {
+   display: none;
+ }
 
  /* ------------skills-------------------- */
 
@@ -420,26 +428,244 @@ footer {
   font-size: 12px;
 }
 
+/* ---------media quieries--------------------------------------- */
 
-                
-     @media screen and (max-width: 220px) {
-      #lense,  #skills {
-  			height: 2000px;
-      }
-	           .lens_text, .skills_text, .st-text, .intro_text, .head-line  {
-        font-size: 14px;
-     }
+
+@media screen and (max-width: 240px) {
+ .exten_img {
+   height: 50px;
+    width: 70px;
+    margin: 20px 10px 20px;
+
+ }
+ .slogan_img {
+   display: none;
+ }
+     .btn_img {
+   height: 15px;
+   width: 15px;
+   cursor: pointer;
+   padding: 3px 10px 10px 5px;
+ }
+
+ .topnav {
+    height: 20px;
+ }
+
+ .topnav a {
+   padding: 10px 5px 10px 5px;
+   font-size: 17px;
+ }
+
+ #sidebar {
+    background-color: #066092;
+    padding-top: 1px;
+    width: 100px;
+    height: 350px;
+    left: -100px;
+
+  }
+
+  #sidebar ul li {
+    height: 50px;
+  }
+
+  #sidebar ul li a {
+    width: 83px;
+    height: 30px;
+    padding: 15px 8px 4px 8px;
+}
+
+ .active {
+   display: none;
+ }
+ .intro_img {
+     height: 70px;
+     width: 70%;
+     padding: 10px;
+     margin: 20px 0px;
+   }
+
+   #Intro {
+     height: 500px;
+   }
+
+   #vission {
+     height: 200px;
+   }
+
+   .vission_img {
+     display: none;
+    }
+
+    .vision_text {
+      display: block;
+    }
+
+
+
+    h1, h2 {
+         font: 15px Times , sans-serif;
+         margin: 30px 0px;
+         letter-spacing: 3px;
+         word-spacing: 3px;
+         font-weight: bold;
      }
 
-     @media screen and (max-width: 255px) {
-       #lense,  #skills {
-        height: 1900px;
+     .lens_img, .skills_img {
+         height: 100px;
+         width: 85%;
+         padding: 5px;
+         margin: 0.5em 0em 0.5em;
+      }
+
+      .lens_list{
+        display: none;
+      }
+      .lens_list_new{
+        display: block;
+      }
+
+      .quote_img {
+    height: 25px;
+    }
+    .spring_img {
+    height: 130px;
+    width: 90%;
+     }
+     .find a {
+    font: 8px Times, sans-serif;
+    float: left;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding: 15px;
+  }
+  #springs {
+    height: 300px;
+  }
+  .team_img {
+    height: 150px;
+    width: 90%;
+  }
+
+  .team-text {
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  .team-text i {
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  .icon {
+    height: 30px;
+    width: 25%;
+  }
+  #lense,  #skills {
+   height: 1600px;
+ }
+
+}
+
+@media screen and (max-width: 120px) {
+        .lens_text, .skills_text, .st-text, .head-line  {
+      font: 12px Times, sans-serif;
+      width: 90%;
+      margin: auto;
+      letter-spacing: 0.2px;
+      text-align: left;
+      line-height: 15px;
+      }
+      .intro_text {
+        font-size: 10px;
+        word-spacing: 0.3px;
+        line-height: 13px;
       }
       }
+
+@media screen  and (min-width: 120px) {
+  .lens_text, .skills_text, .st-text, .head-line  {
+font: 13px Times, sans-serif;
+line-height: 17px;
+}
+.intro_text {
+  font-size: 10px;
+  word-spacing: 0.5px;
+  line-height: 15px;
+}
+}
+
+@media screen  and (min-width: 150px) {
+  .lens_text, .skills_text, .st-text, .head-line  {
+      font: 15px Times, sans-serif;
+      line-height: 18px;
+      }
+
+
+      .intro_text {
+        font-size: 12px;
+        word-spacing: 0.5px;
+        line-height: 18px;
+      }
+
+       h1, h2 {
+           font-size: 20px;
+       }
+
+       .quote_img {
+        height: 60px;
+      }
+      }
+
+@media screen  and (min-width: 180px) {
+
+  .lens_text, .skills_text, .st-text, .head-line  {
+      font: 16px Times, sans-serif;
+      line-height: 20px;
+      letter-spacing: 0.5px;
+       word-spacing: 0.5px;
+      }
+      .intro_text {
+        font-size: 12px;
+        word-spacing: 0.5px;
+        line-height: 18px;
+      }
+
+}
+
+
+@media screen  and (min-width: 205px) {
+
+  .lens_text, .skills_text, .st-text, .head-line  {
+      font: 18px Times, sans-serif;
+      line-height: 20px;
+      }
+      .intro_text {
+        font-size: 15px;
+        word-spacing: 0.5px;
+        line-height: 19px;
+      }
+      }
+
+
+
 		@media screen and (min-width: 275px) {
 			.lens_text, .skills_text, .st-text, .intro_text {
 				letter-spacing: 0.8px;
 		 }
+
+     #Intro {
+       height: 500px;
+     }
+
+     h1, h2 {
+          font: 25px Times , sans-serif;
+      }
 
 		}
 
@@ -455,10 +681,17 @@ footer {
 				font-size: 21px;
 				line-height: 25px;
 			}
+      h1, h2 {
+           font: 30px Times , sans-serif;
+           letter-spacing: 3px;
+           word-spacing: 3px;
+           font-weight: bold;
+       }
 
 			.head-line {
 		    font-size: 23px;
 			}
+
 
 			.intro_text {
 				font-size: 23px;
@@ -520,6 +753,13 @@ footer {
 		width: 25%;
     margin: 2em 0em 2em 0.5em;
 		}
+
+    h1, h2 {
+       font-weight: bold;
+       letter-spacing: 3px;
+       word-spacing: 3px;
+       margin: 2.5em 0.5em 1em;
+        }
 
 		.slogan_img {
 		margin: 1.7em 0em 2em;
