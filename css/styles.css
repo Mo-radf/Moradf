@@ -654,185 +654,151 @@ line-height: 17px;
 
 
 
-		@media screen and (min-width: 275px) {
-			.lens_text, .skills_text, .st-text, .intro_text {
-				letter-spacing: 0.8px;
-		 }
+@media screen and (min-width: 275px) {
+	.lens_text, .skills_text, .st-text, .intro_text {
+		letter-spacing: 0.8px;}
+	#Intro {
+		 height: 500px;
+	}
+	h1, h2 {
+	 	font: 25px Times , sans-serif;
+	}
+}
 
-     #Intro {
-       height: 500px;
-     }
+@media screen and (min-width: 300px) {
+	.lens_text, .skills_text, .st-text, .intro_text {
+ 		line-height: 23px;
+	}
+}
 
-     h1, h2 {
-          font: 25px Times , sans-serif;
-      }
+@media screen and (min-width: 350px) {
+	.lens_text, .skills_text, .st-text {
+		font-size: 21px;
+		line-height: 25px;
+	}
+	h1, h2 {
+		font: 30px Times , sans-serif;
+		letter-spacing: 3px;
+		word-spacing: 3px;
+		font-weight: bold;
+	}
+	.head-line {
+		font-size: 23px;
+	}
+	.intro_text {
+		font-size: 23px;
+		line-height: 30px;
+		letter-spacing: 1px;
+	}
+	#Intro {
+		height: 900px;
+	}
+	#lense,  #skills {
+		height: 1900px;
+	}
+	.quote, .quote_img {
+		height: 100px;
+	}
+}
 
-		}
-
-
-				@media screen and (min-width: 300px) {
-					.lens_text, .skills_text, .st-text, .intro_text {
-						line-height: 23px;
-				 }
-				}
-
-		@media screen and (min-width: 350px) {
-			.lens_text, .skills_text, .st-text {
-				font-size: 21px;
-				line-height: 25px;
-			}
-      h1, h2 {
-           font: 30px Times , sans-serif;
-           letter-spacing: 3px;
-           word-spacing: 3px;
-           font-weight: bold;
-       }
-
-			.head-line {
-		    font-size: 23px;
-			}
-
-
-			.intro_text {
-				font-size: 23px;
-	      line-height: 30px;
-	      letter-spacing: 1px;
-
-			}
-
-			.quote, .quote_img {
-				height: 100px;
-			}
-		}
-
-		@media screen and (min-width: 430px) {
-			.intro_img {
-				height: 280px;
-				width: 80%;
-				margin: 4em 0.5em 2em;
-		}
-
-		#Intro {
-    height: 900px;
+@media screen and (min-width: 430px) {
+	.intro_img {
+		height: 280px;
+		width: 80%;
+		margin: 4em 0.5em 2em;
 	}
 	.lens_img, .skills_img, .spring_img {
 		height: 300px;
 		margin: 2em 0em 2em;
 	}
-
 	#students {
 		height:720px;
 	}
-
 	.head-line {
 		margin: 3em 0em 0em;
-  }
-
-
+	}
 	#springs {
-   height:600px;
- }
-
- .find a {
-   font: 20px Times, sans-serif;
-}
+		height:600px;
+	}
+	.find a {
+		font: 20px Times, sans-serif;
+	}
 	.icon {
-	      height: 75px;
-	      width: 22%;
-}
-.quote, .quote_img {
-	height: 150px;
-}
-
+		height: 75px;
+		width: 22%;
+	}
+	.quote, .quote_img {
+		height: 150px;
+	}
 }
 
 @media screen and (min-width: 550px) {
-
 	.exten_img {
 		height: 100px;
 		width: 25%;
-    margin: 2em 0em 2em 0.5em;
-		}
-
-    h1, h2 {
-       font-weight: bold;
-       letter-spacing: 3px;
-       word-spacing: 3px;
-       margin: 2.5em 0.5em 1em;
-        }
-
-		.slogan_img {
+		margin: 2em 0em 2em 0.5em;
+	}
+	h1, h2 {
+		font-weight: bold;
+		letter-spacing: 3px;
+		word-spacing: 3px;
+		margin: 2.5em 0.5em 1em;
+	}
+	.slogan_img {
 		margin: 1.7em 0em 2em;
-    padding: 5px;
-    height: 120px;
-    width: 65%;
-    float: right;
-		}
-		#lense,  #skills {
-			height: 1700px;
-		}
-
+		padding: 5px;
+		height: 120px;
+		width: 65%;
+		float: right;
+	}
 	.lens_text, .skills_text, .st-text {
 		font-size: 23px;
-    line-height: 30px;
-
+		line-height: 30px;
 	}
-
 	.intro_text {
 		font-size: 30px;
-    line-height: 32px;
-    word-spacing: 3px;
-    letter-spacing: 2px;
+		line-height: 32px;
+		word-spacing: 3px;
+		letter-spacing: 2px;
 	}
-
 }
 
 @media screen and (min-width: 600px) {
-
-.hiddenbar {
-	display: inline;
-}
-
-.topnav  a {
-	padding: 14px 10px;
-	font-size: 18px;
+	.hiddenbar {
+		display: inline;
 	}
-
-
+	.topnav  a {
+		padding: 14px 10px;
+		font-size: 18px;
+	}
 	.br {
 		display: none;
 	}
-
 	.intro_text {
-    line-height: 45px;
+		line-height: 45px;
 	}
-
 	.team_img{
 		height: 400px;
 	}
-		.icon {
+	.icon {
 		height: 120px;
 		width: 15%;
-}
-
-.quote, .quote_img {
-    height: 280px;
-}
-
-footer {
-  font-size: 20px;
-}
-h1{
-	font: 40px Times , sans-serif;
-    letter-spacing: 10px;
+	}
+	.quote, .quote_img {
+		height: 280px;
+	}
+	footer {
+		font-size: 20px;
+	}
+	h1{
+		font: 40px Times , sans-serif;
+		letter-spacing: 10px;
 		font-weight: bold;
-
-}
-h2{
-	font-size: 40px;
-	letter-spacing: 10px;
-}
-
+	}
+	h2{
+		font-size: 40px;
+		letter-spacing: 10px;
+	}
 }
 
 @media screen and (min-width: 830px) {
@@ -844,68 +810,55 @@ h2{
 	}
 	.slogan_img {
 		height: 130px;
-	  width: 65%;
+		width: 65%;
 	}
-
 	.topnav  a {
 		padding: 14px 19px;
 		font-size: 20px;
 	}
-
 	.intro_img, .lens_img, .skills_img, .spring_img, .vission_img {
 		width: 70%;
 	}
-
-.intro_text{
-	width: 75%;
-
-}
-
+	.intro_text{
+		width: 75%;
+	}
 	.lens_text, .skills_text, .st-text{
 		width: 75%;
 		word-spacing: 3px;
 		letter-spacing: 1.5px;
 	}
-
 	#vission {
 		height: 500px;
 	}
-
 	.vission_img {
 		height: 350px;
 	}
-
 	#team {
-	  height: 960px;
+		height: 960px;
 	}
-
 	.team_img{
 		width: 80%;
 		height: 550px;
 	}
-
 	.icon {
-    height: 120px;
-    width: 15%;
-}
- .team-text{
-	 font-size: 25px;
- }
- .team-text i {
-   font-size: 50px;
- }
-
+		height: 120px;
+		width: 15%;
+	}
+	.team-text{
+		font-size: 25px;
+	}
+	.team-text i {
+		font-size: 50px;
+	}
 }
 
 @media screen and (min-width: 1000px) {
-    .lens_img, .skills_img, .spring_img, .vission_img {
-			height: 400px;
+	.lens_img, .skills_img, .spring_img, .vission_img {
+		height: 400px;
 	}
-
 	.lens_img, .skills_img, .spring_img, .vission_img {
 		width: 60%;
 	}
-
 	.exten_img {
 		height: 90px;
 		width: 15%;
@@ -918,80 +871,63 @@ h2{
 		margin: 1.7em 2em 2em;
 		float: right;
 	}
-
 	#Intro {
 		height: 1000px;
 	}
 
 	.intro_img {
-    height: 250px;
-    width: 50%;
-    padding: 3em;
-    margin: 5em 1em 2.5em;
+		height: 250px;
+		width: 50%;
+		padding: 3em;
+		margin: 5em 1em 2.5em;
 	}
-
-
 	h1{
 		font: 60px Times , sans-serif;
-	    letter-spacing: 15px;
-			word-spacing: 20px;
-			font-weight: bold;
-
+		letter-spacing: 15px;
+		word-spacing: 20px;
+		font-weight: bold;
 	}
 	h2{
-    width: 30%;
+		width: 30%;
 		font-size: 40px;
-    font-style: italic;
+		font-style: italic;
 		letter-spacing: 5px;
 		word-spacing: 1px;
-    width: 50%;
-    margin: 1em 14em 1em 0em;
-
-
+		width: 50%;
+		margin: 1em 14em 1em 0em;
 	}
-
 	.topnav {
-    height: 40px;
-  }
-
+		height: 40px;
+	}
 	.topnav  a {
 		padding: 14px 30px;
-	}
-	#sidebar, .btn_img {
+		}
+		#sidebar, .btn_img {
 		display: none;
 	}
-
 	.lens_text, .skills_text{
-		 line-height: 30px;
-		 word-spacing: 3px;
-		 letter-spacing: 1.5px;
-		}
-
-
-	.st-text {
-	  word-spacing: 3px;
-	  letter-spacing: 1.5px;
-	  text-align: center;
-	  line-height: 30px;
+		line-height: 30px;
+		word-spacing: 3px;
+		letter-spacing: 1.5px;
 	}
-
-
+	.st-text {
+		word-spacing: 3px;
+		letter-spacing: 1.5px;
+		text-align: center;
+		line-height: 30px;
+	}
 	#vission {
-	height: 550px;
-}
-
-
-
-#springs {
-	height: 800px;
-}
-.find a {
-  font: 25px Times, sans-serif;
-
-}
-footer{
-	font-size: 25px;
-}
+		height: 550px;
+	}
+	#springs {
+		height: 800px;
+	}
+	.find a {
+		font: 25px Times, sans-serif;
+	}
+	footer{
+		font-size: 25px;
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -1006,34 +942,26 @@ footer{
 		width: 50%;
 		float: right;
 		margin: 1.7em 3em 2.5em;
-
 	}
-
 	.topnav  a {
 		padding: 14px 40px;
 	}
-
 	#lense {
 		height: 1800px;
 	}
-
 	.lens_text, .skills_text{
 		width: 65%;
-		 line-height: 35px;
-
-		}
-		.lens_img, .skills_img, .spring_img, .vission_img {
-			width: 55%;
-		}
-
-		.st-text {
-		  width: 60%;
-		}
-
-		.icon {
-		      height: 120px;
-		      width: 15%;
-		      padding: 10px 20px;
-				}
-
+		line-height: 35px;
+	}
+	.lens_img, .skills_img, .spring_img, .vission_img {
+		width: 55%;
+	}
+	.st-text {
+		width: 60%;
+	}
+	.icon {
+		height: 120px;
+		width: 15%;
+		padding: 10px 20px;
+	}
 }
